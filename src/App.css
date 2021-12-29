@@ -1,0 +1,151 @@
+.App{
+  width: 1440px;
+  height: 760px;
+}
+.Header{
+  width: 1440px;
+  height: 76px;
+  padding: 0 0 1px;
+  object-fit: contain;
+  color:#f8f8f8;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  
+}
+.RightText{
+  margin-left: 100px;
+  margin: auto;
+  width: 113px;
+}
+.LeftText{
+  display: flex;
+  margin-left: 120px;
+}
+.LeftText p{
+  width: 82px;
+  height: 18px;
+  margin: auto 5px auto 40px;
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.LeftText img{
+  width: 82px;
+  height: 18px;
+  margin: auto 5px auto 40px;
+  object-fit: contain;
+}
+.Body{
+  display: flex;
+  background-image: linear-gradient(to right, rgb(240, 210, 215) , rgb(180, 227, 243));
+}
+.LeftContainer{
+  display: grid;
+}
+.img2{
+  width: 522px;
+  height: 19px;
+  margin: 130px 140px 24px 180px;
+  object-fit: contain;
+}
+.img10{
+  width: 504px;
+  height: 110px;
+  margin: 24px 149px 48px 189px;
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+}
+.img3{
+  width: 214px;
+  height: 19px;
+  margin: 25px 90px 23.9px 334px;
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f36326;
+}
+.images4{
+  display: flex;
+  margin-top: 24px;
+}
+.loveimg{
+  margin-left: 200px;
+}
+.career, .self, .more{
+  width: 84px;
+  height: 36px;
+  margin-left: 70px;
+}
+.img4, .img5, .img6, .img7{
+  margin-left: 20px;
+}
+.images4 p{
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: center;
+}
+button{
+  width: 218px;
+  height: 40px;
+  background-color: #3b4180;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Montserrat;
+  cursor: pointer;
+  margin: 60px 88px 116px 340px;
+}
+
+.RightContainer{
+  width: 566px;
+  height: 646px;
+  object-fit: contain;
+  margin-top: 38px;
+}
+.imageparent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img8{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img9{
+  position: absolute;
+  top: 450px;
+  left: 308px;
+  width: 218px;
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+.doing{
+  position: absolute;
+  color: white;
+  top: 450px;
+  left: 340px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+}
